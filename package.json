@@ -1,18 +1,23 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Rodrigo's portfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RodrigoSouzaCamelo/portfolio.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Rodrigo Souza Camelo",
+    "email": "rodrigo.souza.camelo@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RodrigoSouzaCamelo/portfolio/issues"
   },
